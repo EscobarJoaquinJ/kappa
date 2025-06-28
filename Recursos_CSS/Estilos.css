@@ -31,7 +31,7 @@ body::before {
 body::after {
   content: "";
   position: fixed;
-  right: -120px; /* Espejo de la posición izquierda */
+  right: 0px; /* **AJUSTE CLAVE: Cambiado de -120px a 0px para que el borde derecho de la imagen esté alineado con el borde derecho de la pantalla** */
   top: 50%;
   transform: translateY(-50%); /* Centra verticalmente la imagen */
   width: 350px;
