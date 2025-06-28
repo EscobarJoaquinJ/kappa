@@ -33,7 +33,7 @@ body::after {
   position: fixed;
   right: -120px; /* Espejo de la posición izquierda */
   top: 50%;
-  transform: translateY(-50%); /* Voltea horizontalmente + rotación */
+  transform: translateY(-50%); /* Centra verticalmente la imagen */
   width: 350px;
   height: 350px;
   background-image: url("/imagenes/Hipogrifo_2_Inverted.png"); /* Ajusta la ruta según tu estructura */
